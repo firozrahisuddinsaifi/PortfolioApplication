@@ -60,4 +60,8 @@ export default{
     buttonColor:"#111111",
     buttonShadow: "rgba(100,100,111,0.2)0px 7px 29px 0px",
     buttonTextColor: "#f8a200",
+    contactBackgroundColor:"#f1f1f1",
+    contactCardBackgroundColor:"#eaeceb",
+    contactParaColor:"#646f87",
+  
   };
