@@ -1,5 +1,5 @@
 export default {
-    ima:"I'm a ",
+    ima:"I'm good in",
    firozsoftwaredevelopmentengineer:"Firoz Software Development Engineer",
     home:"Home",
     about:"About",
@@ -8,4 +8,6 @@ export default {
     contact:"Contact",
     projects:"Projects",
     resume:"Resume",
+    comingSoon:"Coming Soon",
+    unlockMyPotentialWithYou:"Bringing Simplicity And Reliability To Complex Software Challenges",
 }
