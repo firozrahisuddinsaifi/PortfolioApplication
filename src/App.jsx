@@ -1,13 +1,13 @@
+import { Header } from "./Components/HeaderCom"
 
-
-export const App=()=> {
+export const  App=()=> {
 
 
   return (
     <>
-     
+    <Header />
     </>
   )
 }
 
-export default App
+
