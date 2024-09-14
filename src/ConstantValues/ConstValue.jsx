@@ -24,7 +24,6 @@ export default {
     sql:"SQL",
     c:"C",
     cpp:"C++",
-    comingSoon:"Coming Soon",
     getInTouch:"get in touch",
     phone:"Phone",
     number:"8743010481",
