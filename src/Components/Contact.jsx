@@ -19,7 +19,7 @@ export const Contact=()=>{
     return(<>
             <ContactContainer>
 
-                <Container>
+                <Container id="contact">
                     <ContactTitleContainer>
                         <ContactTitle>{contact}</ContactTitle>
                         <ContactHeading>{getInTouch}</ContactHeading>

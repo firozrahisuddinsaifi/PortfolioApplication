@@ -19,8 +19,8 @@ export const TechStack=()=>{
 
     return<>
         <>
-
-            <MainContainer>
+    <div id="skills">
+                <MainContainer>
                 <TechSkillContainer>
                     <TechHeading>{techStacks}</TechHeading>
                 </TechSkillContainer>
@@ -38,6 +38,7 @@ export const TechStack=()=>{
                 <TechStax><TechImageContainer src="../../src/Images/sql.png" alt="sql_image" /><SpanTag>{sql}</SpanTag></TechStax>
                 </TechCardsContainer>
             </MainContainer>
+</div>
 
         </>
     </>

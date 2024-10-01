@@ -25,7 +25,7 @@ export const TypeWritter=()=>{
     return(<>
 
 <main>
-        <TypeWritterContainer>
+        <TypeWritterContainer id="home">
             <MainContainer>
                 <TextContainer>
                  

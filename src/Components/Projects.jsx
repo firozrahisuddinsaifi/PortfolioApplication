@@ -15,7 +15,7 @@ export const Projects=()=>{
 
   <ProjectContainer>
 
-          <Container>
+          <Container id="project">
 
         <ProjectContainerHeading>
         <ProjectContainerText>{aboutProjects}</ProjectContainerText>

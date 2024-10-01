@@ -17,8 +17,8 @@ const {
 export const About=()=>{
     return(<>
 
-            <div>
-                <Container>
+           
+                <Container id="about">
                     <AboutTitleContainer>
                         <AboutTitle>{about}</AboutTitle> 
                      <AboutHeading>{whyMe}</AboutHeading>
@@ -40,7 +40,7 @@ export const About=()=>{
                     <EducationContent>{bseason}</EducationContent>
                     </AboutEducation>
                 </Container>
-            </div>
+          
 
     </>)
 }
