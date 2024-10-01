@@ -40,5 +40,10 @@ export default {
     mUniversity:"Indira Gandhi National Open University",
     bUniversity:"School Of Open Learning Delhi University",
     mseason:"2019-2022",
-    bseason:"2012-2016"
+    bseason:"2012-2016",
+    feb2022June2023:"Feb-2022 - June-2023",
+    galaxyWeblinksLtd :"Galaxy Weblinks Ltd", 
+    juniorReactNativeEngineer:"Junior React Native Engineer",
+    workExperience:"Work Experience",
+    
 }

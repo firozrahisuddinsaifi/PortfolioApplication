@@ -1,4 +1,4 @@
-import { AboutContent, AboutContentContainer, AboutEducation, AboutHeading, AboutTitle, AboutTitleContainer, Container, EducationContent, EducationHeading } from "./About.styles"
+import { AboutContent, AboutContentContainer, AboutEducation, AboutHeading, AboutTitle, AboutTitleContainer, CompanyTitle, Container, EducationContent, EducationHeading } from "./About.styles"
 import ConstantValues from "../ConstantValues/ConstValue";
 
 
@@ -29,6 +29,23 @@ export const About=()=>{
                         </AboutContent>
                     </AboutContentContainer>
 
+                    <AboutTitleContainer>
+                        <AboutTitle>Work Experience</AboutTitle> 
+                    </AboutTitleContainer>
+                    <AboutContentContainer>
+                        <AboutContent>
+                        Feb-2022 - June-2023     
+                        <CompanyTitle>
+                            Galaxy Weblinks Ltd
+                        </CompanyTitle>
+                        <AboutContent>
+                            Junior React Native Engineer
+                        </AboutContent>
+                        </AboutContent>
+                    </AboutContentContainer>
+                
+
+
                     <AboutEducation>
                     <EducationHeading>{education}</EducationHeading>
                     <EducationHeading>{mDegree}</EducationHeading>
@@ -38,6 +55,7 @@ export const About=()=>{
                     <EducationHeading>{bDegree}</EducationHeading>
                     <EducationContent>{bUniversity}</EducationContent>
                     <EducationContent>{bseason}</EducationContent>
+
                     </AboutEducation>
                 </Container>
           
