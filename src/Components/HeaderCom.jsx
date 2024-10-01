@@ -27,8 +27,6 @@ export const Header =()=>{
                         <UnorderedList>
                     <List><NavLink href="#">{home}</NavLink></List>
                     <List><NavLink href="#">{about}</NavLink></List>
-                    {/* <List><NavLink href="#">{services}</NavLink></List>
-                    <List><NavLink href="#">{resume}</NavLink></List> */}
                     <List><NavLink href="#">{skills}</NavLink></List>
                     <List><NavLink href="#">{projects}</NavLink></List>
                     <List><NavLink href="#">{contact}</NavLink></List>
