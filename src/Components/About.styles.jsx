@@ -63,6 +63,8 @@ height:auto;
   }
 
 `
+export const CompanyTitle=styled.h3`
+`
 
 export const EducationHeading=styled.h2`
 margin-top:1rem;
