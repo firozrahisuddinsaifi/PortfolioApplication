@@ -2,7 +2,6 @@ import styled from "styled-components";
 import Colors from "../Colors";
 
 export const TypeWritterContainer=styled.div`
-margin-top:3rem;
 overflow:hidden;
 `
 export const MainContainer=styled.div`

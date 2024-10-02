@@ -1,11 +1,11 @@
-import {  ButtonContainer, Heading, ImageContainer, ImageFigure, MainContainer, ResumeButton,  TextContainer, TypeWritterContainer } from "./TypeWritter.styles";
+import {  ButtonContainer, Heading, ImageContainer, ImageFigure, ImageView, MainContainer, ResumeButton,  TextContainer, TypeWritterContainer } from "./TypeWritter.styles";
 import ConstantValues from "../ConstantValues/ConstValue";
 import { Intro } from "./Intro";
 const {
     ima,
     resume,
     unlockMyPotentialWithYou,
-    comingSoon
+    // comingSoon
 
 }=ConstantValues
 
@@ -37,16 +37,15 @@ export const TypeWritter=()=>{
                    
 <ButtonContainer>
 <ResumeButton onClick={()=>downloadFileAtUrl(PDF_FILE_URL)}>{resume}</ResumeButton>
- 
  <ResumeButton onClick={()=>downloadFileAtUrl(RESUME_LINK)}>Resume Link</ResumeButton>
 </ButtonContainer>
                 </TextContainer>
                 <ImageContainer >
 
                     <ImageFigure>
-                    <Heading>{comingSoon}</Heading>
+                    {/* <Heading>{comingSoon}</Heading> */}
                     {/* use it later */}
-                        {/* <ImageView src="#" alt="logo"/> */}
+                        <ImageView src="../../src/Images/Profile.png" alt="logo"/>
                     </ImageFigure>
                 </ImageContainer>
             </MainContainer>
