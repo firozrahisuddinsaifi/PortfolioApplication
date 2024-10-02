@@ -48,6 +48,10 @@ font-size:4vw;
 `
 export const ButtonContainer=styled.div`
 margin-top:1rem;
+display:flex;
+flex-direction:row;
+justify-content:space-around;
+
 `
 export const ResumeButton=styled.button`
 background-color: ${Colors.buttonColor};

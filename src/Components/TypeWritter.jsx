@@ -10,6 +10,7 @@ const {
 }=ConstantValues
 
 const PDF_FILE_URL='http://localhost:5173/Firoz-CV.pdf';
+const RESUME_LINK='https://drive.google.com/file/d/1k2kiXhL5vOzZu8hQRomHNfzoV4wOXfZE/view?usp=sharing';
 export const TypeWritter=()=>{
 
     const downloadFileAtUrl=(url)=>{
@@ -36,6 +37,8 @@ export const TypeWritter=()=>{
                    
 <ButtonContainer>
 <ResumeButton onClick={()=>downloadFileAtUrl(PDF_FILE_URL)}>{resume}</ResumeButton>
+ 
+ <ResumeButton onClick={()=>downloadFileAtUrl(RESUME_LINK)}>Resume Link</ResumeButton>
 </ButtonContainer>
                 </TextContainer>
                 <ImageContainer >

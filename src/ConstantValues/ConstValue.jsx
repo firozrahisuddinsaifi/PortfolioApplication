@@ -7,7 +7,7 @@ export default {
     skills:"Skills",
     contact:"Contact",
     projects:"Projects",
-    resume:"Resume",
+    resume:"Download Resume",
     comingSoon:"Coming Soon",
     unlockMyPotentialWithYou:"Bringing Simplicity And Reliability To Complex Software Challenges",
     github:"GitHub",
